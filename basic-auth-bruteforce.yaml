@@ -13,73 +13,10 @@ requests:
 
   - payloads:
       username:
-        - admin
-        - manager
-        - administrator
-        - username
-        - login
-        - anonymous
-        - test
-        - guest
-        - root
-        - demo
+        - usernames.txt
 
       password:
-        - admin
-        - pass1
-        - pass1
-        - root
-        - welcome
-        - p@ssw0rd
-        - user
-        - test
-        - testest
-        - dupa8
-        - admin123
-        - admin1234
-        - admin12345
-        - anonymous
-        - manager
-        - linux
-        - system
-        - oracle
-        - administrator
-        - 11111111
-        - qwerty123
-        - cisco123
-        - admin123456
-        - 1qazXSW@
-        - master
-        - 123qweasd
-        - 1qaz2wsx
-        - 123456789
-        - 1234567890
-        - qaz@wsx
-        - q@w
-        - wubao
-        - pa55w0rd
-        - 123abc
-        - 123456
-        - 123456789
-        - qwerty
-        - password
-        - 1111111
-        - 12345678
-        - abc123
-        - 1234567
-        - password1
-        - 12345
-        - 1234567890
-        - 123123
-        - 000000
-        - Iloveyou
-        - 1234
-        - 1q2w3e4r5t
-        - Qwertyuiop
-        - 123
-        - Monkey
-        - Dragon
-        - demo
+        - passwords.txt
 
     attack: clusterbomb
 
